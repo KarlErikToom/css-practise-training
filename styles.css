@@ -47,7 +47,20 @@ height: 50px;
 
 
 .image{
+    size: 100%;
     width: 500px;
     display: flex;
-    j;
+    animation : float 2000ms infinite alternate-reverse
+    
+}
+
+@keyframes float{
+0% {
+    transform: translateY(0); 
+}
+100% {
+    transform: translateY(30px);
+}
+
+
 }
